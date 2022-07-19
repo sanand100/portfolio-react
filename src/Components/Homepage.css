@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.homepage-container{
+    /* background-color: blueviolet; */
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.homepage-name{
+    /* width: 90%; */
+    color: rgb(180, 233, 255);
+    font-size: 4em;
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Great Vibes', cursive; */
+    /* font-family: 'Megrim', cursive; */
+}
+
+.homepage-p{
+    /* width: 90%; */
+    color: rgb(115, 148, 162);
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.profile-pic {
+    width: 15em;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid rgb(180, 233, 255);
+    /* margin: 4em; */
+}
+
+.line-div{
+    width: 100%;
+    border: 0.01em solid white;
+    margin-bottom: 1em;
+}
+
+.homepage-summary{
+    color: rgb(223, 244, 253);
+    margin-top: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.homepage-summary-main-headers{
+    list-style: none;
+    font-weight: 800;
+    text-decoration: underline;
+    font-size: 1.2em;
+    
+}
+
+.homepage-summary-sub{
+    font-weight:250;
+    list-style: none;
+    margin-bottom: 1em;
+    
+}
+
+.homepage-summary-sub-sub{
+    color: rgb(168, 213, 232);
+    list-style:none;
+}
