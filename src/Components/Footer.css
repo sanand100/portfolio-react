@@ -1,0 +1,8 @@
+.social-media-icons{
+    display: flex;
+    justify-content:center;
+}
+
+.social-icon{
+    margin: 1em;
+}
