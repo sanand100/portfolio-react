@@ -28,22 +28,22 @@ function Navigation(props) {
 				Shraddha Anand
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls='responsive-navbar-nav' />
-			<Navbar.Collapse id='responsive-navbar-nav'>
+			<Navbar.Collapse id='responsive-navbar-nav' className='navbar-collapse'>
 				<Nav className='nav-options'>
 					<LinkContainer to='/Home'>
-						<Nav.Link>Home</Nav.Link>
+						<Nav.Link className='nav-link'>Home</Nav.Link>
 					</LinkContainer>
 					<LinkContainer to='/AboutMe'>
-						<Nav.Link>About Me</Nav.Link>
+						<Nav.Link className='nav-link'>About Me</Nav.Link>
 					</LinkContainer>
 					<LinkContainer to='/Projects'>
-						<Nav.Link>Projects</Nav.Link>
+						<Nav.Link className='nav-link'>Projects</Nav.Link>
 					</LinkContainer>
 					<LinkContainer to='/WorkExperience'>
-						<Nav.Link>Work Experience</Nav.Link>
+						<Nav.Link className='nav-link'>Work Experience</Nav.Link>
 					</LinkContainer>
 					<LinkContainer to='/ContactMe'>
-						<Nav.Link>Contact Me</Nav.Link>
+						<Nav.Link className='nav-link'>Contact Me</Nav.Link>
 					</LinkContainer>
 				</Nav>
 			</Navbar.Collapse>

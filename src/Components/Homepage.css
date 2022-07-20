@@ -65,3 +65,27 @@
     color: rgb(168, 213, 232);
     list-style:none;
 }
+@media (max-width: 400px) {
+    .homepage-container{
+        padding-bottom: 0;
+        height: 70vh
+    }
+    .profile-pic {
+        width: 10em
+    }
+    .homepage-name {
+        font-size: 2em;
+    }
+    .homepage-p {
+        font-size: 1em;
+    }
+    .line-div {
+        width: 100%;
+        border: 1px solid white;
+        margin-bottom:0.5em;
+    }
+
+    .homepage-summary {
+        font-size: 0.95em;
+    }
+}
