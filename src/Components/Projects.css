@@ -1,0 +1,13 @@
+.projects-container{
+    height: 78vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+
+@media (max-width: 400px) {
+    .projects-container {
+        height: 70vh;
+    }
+}

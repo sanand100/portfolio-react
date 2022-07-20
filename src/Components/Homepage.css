@@ -68,6 +68,7 @@
 @media (max-width: 400px) {
     .homepage-container{
         padding-bottom: 0;
+        height: 70vh
     }
     .profile-pic {
         width: 10em

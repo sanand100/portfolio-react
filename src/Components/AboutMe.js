@@ -10,7 +10,7 @@ function AboutMe(props) {
 			</p>
 			<p className='aboutme-p'>
 				I graduated from Wellesley College in 2021 with a Bachelors of Arts in
-				Mathematics and Economics
+				Mathematics and Economics. NEED TO FINISH
 			</p>
 		</div>
 	);
