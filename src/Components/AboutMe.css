@@ -1,5 +1,6 @@
 #aboutme{
     height: 78vh;
+    max-width: 40em;
     display: flex;
     flex-direction: column;
     justify-content: center;
