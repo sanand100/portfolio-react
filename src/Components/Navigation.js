@@ -28,7 +28,7 @@ function Navigation(props) {
 				Shraddha Anand
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls='responsive-navbar-nav' />
-			<Navbar.Collapse id='responsive-navbar-nav'>
+			<Navbar.Collapse id='responsive-navbar-nav' className='navbar-collapse'>
 				<Nav className='nav-options'>
 					<LinkContainer to='/Home'>
 						<Nav.Link>Home</Nav.Link>

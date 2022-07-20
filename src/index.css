@@ -1,4 +1,6 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
 /* Allows elements to stay true to intended size */
 * {
   margin: 0;
@@ -30,16 +32,20 @@ code {
 }
 
 footer {
-  /* position: sticky; */
-  height :10em;
+  position: relative;
+  /* height :10em; */
+  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   bottom: 0;
+  
 }
 
 .container{
   /* height: 98vh; */
   width: 100%;
+  font-family: 'Raleway', sans-serif;
 }
 
 .btn{
