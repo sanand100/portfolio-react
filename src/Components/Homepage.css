@@ -2,6 +2,7 @@
 
 .homepage-container{
     /* background-color: blueviolet; */
+    height: 78vh;
     display: flex ;
     flex-direction: column;
     justify-content: center;
