@@ -28,8 +28,9 @@ function Projects(props) {
 									to connect and share their thoughts by making posts,
 									commenting on posts, and up/down voting posts.
 								</p>
+
+								<p className='tech-used-header'>Technologies Used:</p>
 								<p>
-									<h5>Technologies Used:</h5>
 									React, Javascript, Bootstrap, HTML, CSS, Heroku, MongoDB,
 									Mongoose, Node, Express
 								</p>
@@ -75,10 +76,9 @@ function Projects(props) {
 									destination and get information about the weather, local news,
 									and hotels and restaurants in the area.
 								</p>
-								<p>
-									<h5>Technologies Used:</h5>
-									React, JavaScript, HTML, CSS, 3rd Party APIs
-								</p>
+
+								<p className='tech-used-header'>Technologies Used:</p>
+								<p>React, JavaScript, HTML, CSS, 3rd Party APIs</p>
 								<p>
 									<a
 										className='projects-a'
@@ -113,10 +113,9 @@ function Projects(props) {
 									A website designed to showcase my projects and give details of
 									my background.
 								</p>
-								<p>
-									<h5>Technologies Used:</h5>
-									React, Javascript, Bootstrap, HTML, CSS,
-								</p>
+
+								<p className='tech-used-header'>Technologies Used:</p>
+								<p>React, Javascript, Bootstrap, HTML, CSS,</p>
 								<p>
 									<a
 										className='projects-a'
@@ -153,10 +152,9 @@ function Projects(props) {
 									digital pet by feeding it, playing with it, and making sure it
 									gets enough rest!
 								</p>
-								<p>
-									<h5>Technologies Used:</h5>
-									JavaScript, HTML, CSS
-								</p>
+
+								<p className='tech-used-header'>Technologies Used:</p>
+								<p>JavaScript, HTML, CSS</p>
 								<p>
 									<a
 										className='projects-a'
@@ -184,10 +182,9 @@ function Projects(props) {
 									levels, the player has to click on moving dots to reach the
 									threshold score to move on to the next level.
 								</p>
-								<p>
-									<h5>Technologies Used:</h5>
-									JavaScript, HTML, CSS
-								</p>
+
+								<p className='tech-used-header'>Technologies Used:</p>
+								<p>JavaScript, HTML, CSS</p>
 								<p>
 									<a
 										className='projects-a'

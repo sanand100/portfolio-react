@@ -82,7 +82,11 @@
     /* color: rgb(206, 206, 206); */
 }
 
-
+.tech-used-header{
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 1.1em;
+}
 
 @media (max-width: 768px) {
     .projects-container {
