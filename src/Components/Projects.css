@@ -1,13 +1,91 @@
 .projects-container{
-    height: 78vh;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }   
+.project-containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    margin: auto;
+    /* height: fit-content; */
+    /* width: 40%; */
+}
+
+.projects-header{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/* .projects{
+    width: 30em;
+    border: 0.5px dotted gray;
+    height: fit-content;
+    padding: 25px;
+    margin: 5px;
+
+} */
+
+
+/* .projects h3{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 0.8em;
+}
+.projects p{
+    margin: 2em;
+    
+} */
+
+/* .img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.card{
+    background-color: rgba(0, 0, 0, 0);
+    /* opacity: 1 ; */
+    margin-top: 1em;
+    min-height:45em;
+    min-width:25em;
+}
+
+.card-img{
+   padding-top: 1em;
+}
+#tamagotchi-img, #travel-tips-img, #redoit-img, #dots-img, #portfolio-img {
+    border:1px solid white;
+    margin: 0 auto;
+    width: auto;
+    height: 20em;
+}
+
+#space-battle-img{  
+    width: 28em;
+}
+
+.card-title{
+    font-size:1.5em;
+    text-align: center;
+    margin-top: 0.5em;
+    
+}
+
+.projects-a {
+    text-decoration: none;
+    /* color: rgb(206, 206, 206); */
+}
+
+
 
 @media (max-width: 768px) {
     .projects-container {
-        height: 70vh;
+        height: fit-content;
     }
 }
