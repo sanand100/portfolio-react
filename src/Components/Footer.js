@@ -22,6 +22,13 @@ function Footer(props) {
 					network='github'
 					target='_blank'
 				/>
+				<SocialIcon
+					className='social-icon'
+					url='mailto:shraddhaanand2@gmail.com'
+					bgColor='#FFFFFF'
+					network='email'
+					target='_blank'
+				/>
 			</div>
 		</div>
 	);

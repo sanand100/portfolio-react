@@ -42,9 +42,9 @@ function Navigation(props) {
 					<LinkContainer to='/WorkExperience'>
 						<Nav.Link className='nav-link'>Work Experience</Nav.Link>
 					</LinkContainer>
-					<LinkContainer to='/ContactMe'>
+					{/* <LinkContainer to='/ContactMe'>
 						<Nav.Link className='nav-link'>Contact Me</Nav.Link>
-					</LinkContainer>
+					</LinkContainer> */}
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
