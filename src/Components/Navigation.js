@@ -6,6 +6,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 import Link from 'react-scroll';
 import './Navigation.css';
 import { Navigate, useNavigate } from 'react-router-dom';
+// import resume from '../assets/ShraddhaAnand_resume';
 
 function Navigation(props) {
 	let navigate = useNavigate();
@@ -39,16 +40,23 @@ function Navigation(props) {
 					<LinkContainer to='/Projects'>
 						<Nav.Link className='nav-link'>Projects</Nav.Link>
 					</LinkContainer>
-					<LinkContainer to='/WorkExperience'>
-						<Nav.Link className='nav-link'>Work Experience</Nav.Link>
-					</LinkContainer>
+					{/* <LinkContainer to='/'> */}
+					{/* <Nav.Link className='nav-link'>Work Experience</Nav.Link> */}
+					<a
+						className='nav-link'
+						href={require('../assets/ShraddhaAnand_resume.pdf')}
+						target='_blank'>
+						{' '}
+						Work Experience
+					</a>
+					{/* </LinkContainer> */}
 					{/* <LinkContainer to='/ContactMe'>
 						<Nav.Link className='nav-link'>Contact Me</Nav.Link>
 					</LinkContainer> */}
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
-		// <Navbar collapseOnSelect variant='light' expand='md' className='nav-text'>
+		// <Navbar collapseOnSelect variant='lightsrc/assets/ShraddhaAnand_resume.pdf' expand='md' className='nav-text'>
 		// 	{/* <Navbar.Brand>Shraddha Anand</Navbar.Brand> */}
 		// 	<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 		// 	<Navbar.Collapse id='responsive-navbar-nav'>

@@ -24,6 +24,7 @@ function App() {
 					<Route path='/AboutMe' element={<AboutMe />} />
 					{/* <Route path='/ContactMe' element={<ContactMe />} /> */}
 					<Route path='/Projects' element={<Projects />} />
+					
 					<Route path='*' element={<Navigate to='/home' />} />
 				</Routes>
 			</main>

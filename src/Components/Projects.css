@@ -88,4 +88,19 @@
     .projects-container {
         height: fit-content;
     }
+    .card{
+        /* width: 5em; */
+        min-height: fit-content;
+        min-width: 10em;
+    }
+        #tamagotchi-img,
+        #travel-tips-img,
+        #redoit-img,
+        #dots-img,
+        #portfolio-img {
+            border: 1px solid white;
+            margin: 0 auto;
+            width: auto;
+            height: 15em;
+        }
 }
