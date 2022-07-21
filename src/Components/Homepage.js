@@ -36,7 +36,7 @@ function Homepage(props) {
 						</ul>
 					</ul>
 					<li className='homepage-summary-main-headers'>
-						Programming Languages
+						Programming Languages and Technologies
 					</li>
 					<ul className='homepage-summary-sub'>
 						<li>
