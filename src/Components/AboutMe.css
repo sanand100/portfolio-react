@@ -16,8 +16,14 @@
     font-weight: 500;
 }
 
-@media (max-width: 768px){
+@media (max-width: 400px){
     #aboutme {
         height: 70vh;
+    }
+    .aboutme-header{
+        font-size: 2em;
+    }
+    .aboutme-p{
+        font-size: 0.8em;
     }
 }

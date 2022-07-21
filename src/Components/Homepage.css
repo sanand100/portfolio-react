@@ -67,7 +67,7 @@
     color: rgb(168, 213, 232);
     list-style:none;
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .homepage-container{
         padding-bottom: 0;
         height: 70vh
@@ -91,3 +91,38 @@
         font-size: 0.95em;
     }
 }
+
+@media (max-width: 400px){
+    .homepage-container {
+            padding-bottom: 0;
+            height: 70vh
+        }
+    
+        .profile-pic {
+            width: 7em
+        }
+    
+        .homepage-name {
+            font-size: 1.5em;
+        }
+    
+        .homepage-p {
+            font-size: 0.8em;
+        }
+    
+        .line-div {
+            width: 100%;
+            border: 1px solid white;
+            margin-bottom: 0.5em;
+        }
+    
+        .homepage-summary {
+            font-size: 0.8em;
+        }
+}
+/* @media (min-width: 768px) {
+    .homepage-container {
+            padding-top: 6em;
+            height: 78vh;
+        }
+} */
