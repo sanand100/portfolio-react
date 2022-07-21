@@ -42,7 +42,7 @@ function Projects(props) {
 										<a
 											className='projects-a'
 											target='_blank'
-											href='https://github.com/debug-thugz'>
+											href='https://github.com/re-do-it'>
 											Code
 										</a>{' '}
 										|{' '}
@@ -76,7 +76,7 @@ function Projects(props) {
 									id='travel-tips-img'
 									variant='top'
 									src={require('../assets/TravelTips.png')}
-									alt='landscape image with tamagotchi digital pet'
+									alt='app homepage with a search bar'
 								/>
 							</a>
 							<Card.Body>
@@ -119,7 +119,7 @@ function Projects(props) {
 									id='redoit-img'
 									variant='top'
 									src={require('../assets/Portfolio.png')}
-									alt='App home page'
+									alt='Personal portfolio homepage'
 								/>
 							</a>
 							<Card.Body>
@@ -193,7 +193,7 @@ function Projects(props) {
 									id='dots-img'
 									variant='top'
 									src={require('../assets/Dots.png')}
-									alt='landscape image with tamagotchi digital pet'
+									alt=''
 								/>
 							</a>
 							<Card.Body className='card-body'>
@@ -212,7 +212,7 @@ function Projects(props) {
 										<a
 											className='projects-a'
 											target='_blank'
-											href='https://github.com/sanand100/event-listener-demoß'>
+											href='https://github.com/sanand100/event-listener-demo'>
 											Code
 										</a>
 									</p>
