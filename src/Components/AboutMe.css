@@ -1,10 +1,18 @@
-#aboutme{
-    height: 78vh;
+.aboutme-container{
+    /* height: 78vh;
+    max-width: 40em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    height: 70vh;
     max-width: 40em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 2em;
+
 }
 .aboutme-header{
     font-size: 2.5em;
@@ -17,7 +25,7 @@
 }
 
 @media (max-width: 400px){
-    #aboutme {
+    .aboutme-container {
         height: 70vh;
     }
     .aboutme-header{

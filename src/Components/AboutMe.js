@@ -2,7 +2,7 @@ import React from 'react';
 import '../Components/AboutMe.css';
 function AboutMe(props) {
 	return (
-		<div className='container' id='aboutme'>
+		<div className='aboutme-container container' id='aboutme'>
 			<h2 className='aboutme-header'>A bit about me</h2>
 			<p className='aboutme-p'>
 				Hi! My name is Shraddha Anand and I am a software engineer with a
