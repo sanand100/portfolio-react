@@ -176,23 +176,28 @@ function Projects(props) {
 								src={require('../assets/Dots.png')}
 								alt='landscape image with tamagotchi digital pet'
 							/>
-							<Card.Body>
-								<p>
-									Created an interactive game with 3 levels. In each of the
-									levels, the player has to click on moving dots to reach the
-									threshold score to move on to the next level.
-								</p>
-
-								<p className='tech-used-header'>Technologies Used:</p>
-								<p>JavaScript, HTML, CSS</p>
-								<p>
-									<a
-										className='projects-a'
-										target='_blank'
-										href='https://github.com/sanand100/event-listener-demoß'>
-										Code
-									</a>
-								</p>
+							<Card.Body className='card-body'>
+								<div className='content-div'>
+									<p>
+										Created an interactive game with 3 levels. In each of the
+										levels, the player has to click on moving dots to reach the
+										threshold score to move on to the next level.
+									</p>
+								</div>
+								<div className='tech-div'>
+									<div>
+										<p className='tech-used-header'>Technologies Used:</p>
+										<p>JavaScript, HTML, CSS</p>
+									</div>
+									<p>
+										<a
+											className='projects-a'
+											target='_blank'
+											href='https://github.com/sanand100/event-listener-demoß'>
+											Code
+										</a>
+									</p>
+								</div>
 							</Card.Body>
 						</Card>
 					</Col>

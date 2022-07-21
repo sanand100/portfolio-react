@@ -6,6 +6,7 @@ import './Footer.css';
 function Footer(props) {
 	return (
 		<div className='social-media-icons-container'>
+			<p className='footer-getintouch'>Get in touch!</p>
 			<div className='social-media-icons'>
 				<SocialIcon
 					className='social-icon'
@@ -30,6 +31,7 @@ function Footer(props) {
 					target='_blank'
 				/>
 			</div>
+			<p className='footer-credit'>Designed and Created by Shraddha Anand</p>
 		</div>
 	);
 }

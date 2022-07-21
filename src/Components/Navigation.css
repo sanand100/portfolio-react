@@ -5,6 +5,9 @@
     /* font-family: 'Great Vibes', cursive; */
     font-family: 'Lobster', cursive;
     /* font-family: 'Megrim', cursive; */
+    position: relative;
+    left: 0;
+    /* top:1em */
 
 }
 .brand:hover{
@@ -12,13 +15,38 @@
 }
 .nav-options{
     position: fixed;
+    /* top: 1em; */
     right: 1em;
+    background-color: rgb(0, 17, 35) !important;
+    opacity: 0.7 !important;
 }
 
 @media (max-width: 768px) {
     .nav-link{
         background-color: rgb(0, 17, 35) !important;
-        opacity: 0.7 !important;
+        /* opacity: 0.7 !important; */
         color: white  !important
     }
+}
+
+@media (min-width: 1000px) {
+    .brand {
+        font-size: 2em;
+        /* font-family: 'Great Vibes', cursive; */
+        font-family: 'Lobster', cursive;
+        /* font-family: 'Megrim', cursive; */
+        position: fixed;
+        left: 1em;
+        top:1em
+    
+    }
+    
+    .nav-options{
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    background-color: rgb(0, 17, 35) !important;
+    opacity: 0.7 !important;
+    }
+    
 }
