@@ -13,14 +13,18 @@ function Projects(props) {
 					<Col>
 						<Card className='card' border='light'>
 							<Card.Title className='card-title'> Redoit</Card.Title>
-							<Card.Img
-								border='light'
+							<a
+								href='https://redoit.netlify.app/'
 								className='card-img'
-								id='redoit-img'
-								variant='top'
-								src={require('../assets/Redoit.png')}
-								alt='App home page with blocks of text'
-							/>
+								target='_blank'>
+								<Card.Img
+									border='light'
+									id='redoit-img'
+									variant='top'
+									src={require('../assets/Redoit.png')}
+									alt='App home page with blocks of text'
+								/>
+							</a>
 							<Card.Body>
 								<p>
 									As SCRUM Lead, led a team of 4 software engineers in creating
@@ -28,122 +32,135 @@ function Projects(props) {
 									to connect and share their thoughts by making posts,
 									commenting on posts, and up/down voting posts.
 								</p>
-
-								<p className='tech-used-header'>Technologies Used:</p>
-								<p>
-									React, Javascript, Bootstrap, HTML, CSS, Heroku, MongoDB,
-									Mongoose, Node, Express
-								</p>
-								<p>
-									<a
-										className='projects-a'
-										target='_blank'
-										href='https://github.com/debug-thugz'>
-										Code
-									</a>{' '}
-									|{' '}
-									<a
-										className='projects-a'
-										target='_blank'
-										href='https://redoit.netlify.app/'>
-										Website
-									</a>{' '}
-									|{' '}
-									<a
-										className='projects-a'
-										target='_blank'
-										href='https://redoit-api.herokuapp.com/api/users'>
-										Deployed Backend
-									</a>
-								</p>
+								<div className='tech-div'>
+									<p className='tech-used-header'>Technologies Used:</p>
+									<p>
+										React, Javascript, Bootstrap, HTML, CSS, Heroku, MongoDB,
+										Mongoose, Node, Express
+									</p>
+									<p>
+										<a
+											className='projects-a'
+											target='_blank'
+											href='https://github.com/debug-thugz'>
+											Code
+										</a>{' '}
+										|{' '}
+										<a
+											className='projects-a'
+											target='_blank'
+											href='https://redoit.netlify.app/'>
+											Website
+										</a>{' '}
+										|{' '}
+										<a
+											className='projects-a'
+											target='_blank'
+											href='https://redoit-api.herokuapp.com/api/users'>
+											Deployed Backend
+										</a>
+									</p>
+								</div>
 							</Card.Body>
 						</Card>
 					</Col>
 					<Col>
 						<Card className='card' border='light'>
 							<Card.Title className='card-title'> TravelTips</Card.Title>
-							<Card.Img
-								border='light'
+							<a
+								href='https://celebrated-halva-710aaa.netlify.app/'
 								className='card-img'
-								id='travel-tips-img'
-								variant='top'
-								src={require('../assets/TravelTips.png')}
-								alt='landscape image with tamagotchi digital pet'
-							/>
+								target='_blank'>
+								<Card.Img
+									border='light'
+									id='travel-tips-img'
+									variant='top'
+									src={require('../assets/TravelTips.png')}
+									alt='landscape image with tamagotchi digital pet'
+								/>
+							</a>
 							<Card.Body>
 								<p>
 									A web application where users can enter their travel
 									destination and get information about the weather, local news,
 									and hotels and restaurants in the area.
 								</p>
-
-								<p className='tech-used-header'>Technologies Used:</p>
-								<p>React, JavaScript, HTML, CSS, 3rd Party APIs</p>
-								<p>
-									<a
-										className='projects-a'
-										target='_blank'
-										href='https://github.com/sanand100/travel-tips'>
-										Code
-									</a>{' '}
-									|{' '}
-									<a
-										className='projects-a'
-										target='_blank'
-										href='https://celebrated-halva-710aaa.netlify.app/'>
-										Website
-									</a>
-								</p>
+								<div className='tech-div'>
+									<p className='tech-used-header'>Technologies Used:</p>
+									<p>React, JavaScript, HTML, CSS, 3rd Party APIs</p>
+									<p>
+										<a
+											className='projects-a'
+											target='_blank'
+											href='https://github.com/sanand100/travel-tips'>
+											Code
+										</a>{' '}
+										|{' '}
+										<a
+											className='projects-a'
+											target='_blank'
+											href='https://celebrated-halva-710aaa.netlify.app/'>
+											Website
+										</a>
+									</p>
+								</div>
 							</Card.Body>
 						</Card>
 					</Col>
 					<Col>
 						<Card className='card' border='light'>
 							<Card.Title className='card-title'>Personal Portfolio</Card.Title>
-							<Card.Img
-								border='light'
+							<a
+								href='https://shraddhaanand.netlify.app/'
 								className='card-img'
-								id='redoit-img'
-								variant='top'
-								src={require('../assets/Portfolio.png')}
-								alt='App home page'
-							/>
+								target='_blank'>
+								<Card.Img
+									border='light'
+									id='redoit-img'
+									variant='top'
+									src={require('../assets/Portfolio.png')}
+									alt='App home page'
+								/>
+							</a>
 							<Card.Body>
 								<p>
 									A website designed to showcase my projects and give details of
 									my background.
 								</p>
+								<div className='tech-div'>
+									<p className='tech-used-header'>Technologies Used:</p>
+									<p>React, Javascript, Bootstrap, HTML, CSS,</p>
 
-								<p className='tech-used-header'>Technologies Used:</p>
-								<p>React, Javascript, Bootstrap, HTML, CSS,</p>
-								<p>
-									<a
-										className='projects-a'
-										target='_blank'
-										href='https://github.com/sanand100/portfolio-react'>
-										Code
-									</a>{' '}
-									|{' '}
-									<a
-										className='projects-a'
-										target='_blank'
-										href='https://shraddhaanand.netlify.app/'>
-										Website
-									</a>
-								</p>
+									<p>
+										<a
+											className='projects-a'
+											target='_blank'
+											href='https://github.com/sanand100/portfolio-react'>
+											Code
+										</a>{' '}
+										|{' '}
+										<a
+											className='projects-a'
+											target='_blank'
+											href='https://shraddhaanand.netlify.app/'>
+											Website
+										</a>
+									</p>
+								</div>
 							</Card.Body>
 						</Card>
 					</Col>
 					<Col>
 						<Card className='card' border='light'>
 							<Card.Title className='card-title'> Tamagotchi</Card.Title>
-							<Card.Img
-								className='card-img'
-								id='tamagotchi-img'
-								variant='top'
-								src={require('../assets/tamagotchi-game-screenshot.png')}
-								alt='landscape image with tamagotchi digital pet'
-							/>
+							<a href='' className='card-img' target='_blank'>
+								<Card.Img
+									id='tamagotchi-img'
+									variant='top'
+									src={require('../assets/tamagotchi-game-screenshot.png')}
+									alt='landscape image with tamagotchi digital pet'
+								/>
+							</a>
 							<Card.Body>
 								<p>
 									Created a Tamagotchi-style digital pet game where you aim to
@@ -152,30 +169,33 @@ function Projects(props) {
 									digital pet by feeding it, playing with it, and making sure it
 									gets enough rest!
 								</p>
+								<div className='tech-div'>
+									<p className='tech-used-header'>Technologies Used:</p>
+									<p>JavaScript, HTML, CSS</p>
 
-								<p className='tech-used-header'>Technologies Used:</p>
-								<p>JavaScript, HTML, CSS</p>
-								<p>
-									<a
-										className='projects-a'
-										target='_blank'
-										href='https://github.com/sanand100/Tamagotchi/tree/dev'>
-										Code
-									</a>
-								</p>
+									<p>
+										<a
+											className='projects-a'
+											target='_blank'
+											href='https://github.com/sanand100/Tamagotchi/tree/dev'>
+											Code
+										</a>
+									</p>
+								</div>
 							</Card.Body>
 						</Card>
 					</Col>
 					<Col>
 						<Card className='card' border='light'>
 							<Card.Title className='card-title'> Dots Game</Card.Title>
-							<Card.Img
-								className='card-img'
-								id='dots-img'
-								variant='top'
-								src={require('../assets/Dots.png')}
-								alt='landscape image with tamagotchi digital pet'
-							/>
+							<a href='' className='card-img' target='_blank'>
+								<Card.Img
+									id='dots-img'
+									variant='top'
+									src={require('../assets/Dots.png')}
+									alt='landscape image with tamagotchi digital pet'
+								/>
+							</a>
 							<Card.Body className='card-body'>
 								<div className='content-div'>
 									<p>
@@ -185,10 +205,9 @@ function Projects(props) {
 									</p>
 								</div>
 								<div className='tech-div'>
-									<div>
-										<p className='tech-used-header'>Technologies Used:</p>
-										<p>JavaScript, HTML, CSS</p>
-									</div>
+									<p className='tech-used-header'>Technologies Used:</p>
+									<p>JavaScript, HTML, CSS</p>
+
 									<p>
 										<a
 											className='projects-a'
