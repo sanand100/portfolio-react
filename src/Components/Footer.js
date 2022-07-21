@@ -25,7 +25,7 @@ function Footer(props) {
 				/>
 				<SocialIcon
 					className='social-icon'
-					url='mailto:shraddhaanand2@gmail.com'
+					url='https://mailhide.io/e/PrcEGwC0'
 					bgColor='#FFFFFF'
 					network='email'
 					target='_blank'
