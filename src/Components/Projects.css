@@ -57,7 +57,10 @@
 }
 
 .card-img{
-   padding-top: 1em;
+   padding-top: 0.8em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 #tamagotchi-img, #travel-tips-img, #redoit-img, #dots-img, #portfolio-img {
     border:1px solid white;
