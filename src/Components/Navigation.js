@@ -10,15 +10,6 @@ import { Navigate, useNavigate } from 'react-router-dom';
 
 function Navigation(props) {
 	let navigate = useNavigate();
-	// function handleScroll(e) {
-	// 	e.preventDefault();
-	// 	const main = this.main.current;
-	// 	window.scrollTo({
-	// 		top: main.offsetTop,
-	// 		left: 0,
-	// 		behavior: 'instant',
-	// 	});
-	// }
 	return (
 		<Navbar collapseOnSelect variant='dark' expand='md' className='nav-text'>
 			<Navbar.Brand
@@ -44,7 +35,7 @@ function Navigation(props) {
 					{/* <Nav.Link className='nav-link'>Work Experience</Nav.Link> */}
 					<a
 						className='nav-link'
-						href={require('../assets/ShraddhaAnand_resume.pdf')}
+						href={require('../assets/ShraddhaAnand_Resume.pdf')}
 						target='_blank'>
 						{' '}
 						Work Experience
@@ -56,39 +47,6 @@ function Navigation(props) {
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
-		// <Navbar collapseOnSelect variant='lightsrc/assets/ShraddhaAnand_resume.pdf' expand='md' className='nav-text'>
-		// 	{/* <Navbar.Brand>Shraddha Anand</Navbar.Brand> */}
-		// 	<Navbar.Toggle aria-controls='responsive-navbar-nav' />
-		// 	<Navbar.Collapse id='responsive-navbar-nav'>
-		// 		<Nav className='nav-link-container'>
-		// 			<Link
-		// 				onClick={handleScroll}
-		// 				to='about'
-		// 				activeClass='active'
-		// 				spy={true}
-		// 				smooth={true}>
-		// 				Home
-		// 			</Link>
-
-		// 			{/* <Link
-		// 				onClick={() =>
-		// 					scroller.scrollTo('aboutme', {
-		// 						smooth: true,
-		// 						offset: -70,
-		// 						duration: 500,
-		// 					})
-		// 				}>
-		// 				About Me
-		// 			</Link> */}
-
-		// 			<Link>Projects</Link>
-
-		// 			<Link>Work Experience</Link>
-
-		// 			<Link>Contact Me</Link>
-		// 		</Nav>
-		// 	</Navbar.Collapse>
-		// </Navbar>
 	);
 }
 

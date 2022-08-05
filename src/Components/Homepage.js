@@ -36,13 +36,19 @@ function Homepage(props) {
 						</ul>
 					</ul>
 					<li className='homepage-summary-main-headers'>
-						Programming Languages and Technologies
+						Programming Languages
 					</li>
 					<ul className='homepage-summary-sub'>
 						<li>
+							<p>Java, Python, JavaScript, SQL, HTML, CSS, R, Stata</p>
+						</li>
+					</ul>
+					<li className='homepage-summary-main-headers'>Software</li>
+					<ul className='homepage-summary-sub'>
+						<li>
 							<p>
-								Javascript, Python, HTML, CSS, React, Django, MongoDB, Mongoose,
-								Express, NodeJs, API, AJAX, Git, GitHub
+								Spring Boot, React, Django, Mongoose, MongoDB, PostgreSQL, Node,
+								Express, Git, GitHub
 							</p>
 						</li>
 					</ul>

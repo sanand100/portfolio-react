@@ -43,10 +43,11 @@ footer {
 }
 
 .container{
-  /* height: 98vh; */
   width: 100%;
   font-family: 'Raleway', sans-serif;
 }
+
+
 
 .btn{
   border: 1px rgb(186, 227, 244) solid;
@@ -56,4 +57,3 @@ footer {
   /* color: rgb(0, 17, 35); */
   color:rgb(186, 227, 244)
 }
-

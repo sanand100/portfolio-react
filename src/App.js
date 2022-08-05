@@ -4,6 +4,7 @@ import AboutMe from './Components/AboutMe';
 import ContactMe from './Components/ContactMe';
 import Projects from './Components/Projects';
 import Homepage from './Components/Homepage';
+import HomepageB from './Components/HomepageB';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { useState } from 'react';
 import './App.css';
@@ -20,7 +21,8 @@ function App() {
 			<main>
 				{/* <h1>Shraddha Anand</h1> */}
 				<Routes>
-					<Route path='/home' element={<Homepage />} />
+					{/* <Route path='/home' element={<Homepage />} /> */}
+					<Route path='/home' element={<HomepageB />} />
 					<Route path='/AboutMe' element={<AboutMe />} />
 					{/* <Route path='/ContactMe' element={<ContactMe />} /> */}
 					<Route path='/Projects' element={<Projects />} />

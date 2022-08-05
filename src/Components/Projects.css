@@ -62,7 +62,7 @@
    justify-content: center;
    align-items: center;
 }
-#tamagotchi-img, #travel-tips-img, #redoit-img, #dots-img, #portfolio-img {
+#tamagotchi-img, #travel-tips-img, #redoit-img, #dots-img, #portfolio-img, #movingco-img {
     border:1px solid white;
     margin: 0 auto;
     width: auto;
