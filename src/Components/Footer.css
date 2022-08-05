@@ -21,7 +21,13 @@
     font-size: 0.8em;
 }
 
-@media (max-width: 768px){
+@media (max-width: 500px){
+    .social-icon{
+        font-size: 0.5em;
+    }
+}
+
+/* @media (max-width: 768px){
     .social-media-icons-container{
         padding: 0
     }
@@ -54,4 +60,4 @@
             margin-top: 3em;
             font-size: 0.9em;
      }
-}
+} */

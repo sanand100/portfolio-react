@@ -12,6 +12,59 @@ function Projects(props) {
 				<Row>
 					<Col>
 						<Card className='card' border='light'>
+							<Card.Title className='card-title'> Moving Co.</Card.Title>
+							<a
+								href='https://movingco.netlify.app/'
+								className='card-img'
+								target='_blank'>
+								<Card.Img
+									border='light'
+									id='movingco-img'
+									variant='top'
+									src={require('../assets/MovingCo.png')}
+									alt='App home page with blocks of text'
+								/>
+							</a>
+							<Card.Body>
+								<ul>
+									<li>
+										Designed and built full software stack of a social media
+										application with a team of 3 SWEs. Users can read and post
+										tips and tricks about moving on the app’s blog.
+									</li>
+									<li>
+										Built full CRUD, REST API with JWT authentication using Java
+										Spring Boot and PostgreSQL.
+									</li>
+								</ul>
+
+								<div className='tech-div'>
+									<p className='tech-used-header'>Technologies Used:</p>
+									<p>
+										Spring Boot, Java, React, JavaScript, Bootstrap, HTML, CSS,
+										PostgreSQL
+									</p>
+									<p>
+										<a
+											className='projects-a'
+											target='_blank'
+											href='https://github.com/AnAppThatMovesYou'>
+											Code
+										</a>{' '}
+										|{' '}
+										<a
+											className='projects-a'
+											target='_blank'
+											href='https://movingco.netlify.app/'>
+											Website
+										</a>
+									</p>
+								</div>
+							</Card.Body>
+						</Card>
+					</Col>
+					<Col>
+						<Card className='card' border='light'>
 							<Card.Title className='card-title'> Redoit</Card.Title>
 							<a
 								href='https://redoit.netlify.app/'
@@ -26,12 +79,14 @@ function Projects(props) {
 								/>
 							</a>
 							<Card.Body>
-								<p>
-									As SCRUM Lead, led a team of 4 software engineers in creating
-									a Full Stack (MERN) social media application that allows users
-									to connect and share their thoughts by making posts,
-									commenting on posts, and up/down voting posts.
-								</p>
+								<ul>
+									<li>
+										As SCRUM Lead, led a team of 4 software engineers in
+										creating a Full Stack (MERN) social media application that
+										allows users to connect and share their thoughts by making
+										posts, commenting on posts, and up/down voting posts.
+									</li>
+								</ul>
 								<div className='tech-div'>
 									<p className='tech-used-header'>Technologies Used:</p>
 									<p>
@@ -80,11 +135,13 @@ function Projects(props) {
 								/>
 							</a>
 							<Card.Body>
-								<p>
-									A web application where users can enter their travel
-									destination and get information about the weather, local news,
-									and hotels and restaurants in the area.
-								</p>
+								<ul>
+									<li>
+										A web application where users can enter their travel
+										destination and get information about the weather, local
+										news, and hotels and restaurants in the area.
+									</li>
+								</ul>
 								<div className='tech-div'>
 									<p className='tech-used-header'>Technologies Used:</p>
 									<p>React, JavaScript, HTML, CSS, 3rd Party APIs</p>
@@ -123,10 +180,12 @@ function Projects(props) {
 								/>
 							</a>
 							<Card.Body>
-								<p>
-									A website designed to showcase my projects and give details of
-									my background.
-								</p>
+								<ul>
+									<li>
+										A website designed to showcase my projects and give details
+										of my background.
+									</li>
+								</ul>
 								<div className='tech-div'>
 									<p className='tech-used-header'>Technologies Used:</p>
 									<p>React, Javascript, Bootstrap, HTML, CSS,</p>
@@ -150,7 +209,7 @@ function Projects(props) {
 							</Card.Body>
 						</Card>
 					</Col>
-					<Col>
+					{/* <Col>
 						<Card className='card' border='light'>
 							<Card.Title className='card-title'> Tamagotchi</Card.Title>
 							<a href='' className='card-img' target='_blank'>
@@ -219,7 +278,7 @@ function Projects(props) {
 								</div>
 							</Card.Body>
 						</Card>
-					</Col>
+					</Col> */}
 				</Row>
 			</Container>
 		</div>

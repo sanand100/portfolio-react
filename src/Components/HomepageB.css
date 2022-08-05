@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage-name {
+    display: flex;
+    justify-content: center;
+    color: rgb(180, 233, 255);
+    font-size: 4em;
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Great Vibes', cursive; */
+    /* font-family: 'Megrim', cursive; */
+}
+.profile-pic-container{
+    display: flex;
+    justify-content: center;
+}
+
+.homepage-p {
+    display: flex;
+    justify-content: center;
+    color: rgb(115, 148, 162);
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-pic {
+    width: 15em;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid rgb(180, 233, 255);
+    /* margin: 4em; */
+}
+
+.line-div {
+    width: 100%;
+    border: 0.01em solid white;
+    margin-bottom: 1em;
+}
+
+.homepage-summary {
+    color: rgb(223, 244, 253);
+    margin-top: 0;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 2em;
+}
+
+.homepage-summary-main-headers {
+    list-style: none;
+    font-weight: 800;
+    /* text-decoration: underline; */
+    font-size: 1.2em;
+
+}
+
+.homepage-summary-sub {
+    font-weight: 250;
+    list-style: none;
+    margin-bottom: 1em;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.homepage-summary-sub-sub {
+    color: rgb(168, 213, 232);
+    list-style: none;
+}
+
+.homepage-row{
+    margin: 0;
+}
+
+
+@media (max-width: 500px) {
+    .container{
+        height: 70vh;
+    }
+    .profile-pic {
+        width: 7em
+    }
+
+    .homepage-name {
+        font-size: 1.5em;
+    }
+
+    .homepage-p {
+        font-size: 0.8em;
+    }
+
+    .line-div {
+        width: 100%;
+        border: 1px solid white;
+        margin-bottom: 0.5em;
+    }
+
+    .homepage-summary {
+        font-size: 0.8em;
+    }
+} 

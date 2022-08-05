@@ -1,11 +1,5 @@
 .aboutme-container{
-    /* height: 78vh;
-    max-width: 40em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-    height: 70vh;
+    height: 79.5vh;
     max-width: 40em;
     display: flex;
     flex-direction: column;
@@ -24,7 +18,7 @@
     font-weight: 500;
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
     .aboutme-container {
         height: 70vh;
     }

@@ -2,13 +2,14 @@
 
 .homepage-container{
     /* background-color: blueviolet; */
-    height: 78vh;
+    height: 74vh;
     max-width: 40em;
     display: flex ;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2em;
+    margin-top: 3em;
 }
 
 .homepage-name{
@@ -46,12 +47,13 @@
     color: rgb(223, 244, 253);
     margin-top: 0;
     font-family: 'Raleway', sans-serif;
+    margin-bottom:5em;
 }
 
 .homepage-summary-main-headers{
     list-style: none;
     font-weight: 800;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-size: 1.2em;
     
 }
@@ -60,6 +62,7 @@
     font-weight:250;
     list-style: none;
     margin-bottom: 1em;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 
@@ -95,7 +98,8 @@
 @media (max-width: 400px){
     .homepage-container {
             padding-bottom: 0;
-            height: 70vh
+            height: 70vh;
+            
         }
     
         .profile-pic {
