@@ -35,7 +35,7 @@ function Navigation(props) {
 					{/* <Nav.Link className='nav-link'>Work Experience</Nav.Link> */}
 					<a
 						className='nav-link'
-						href={require('../assets/ShraddhaAnand_Resume.pdf')}
+						href={require('../assets/ShraddhaAnand_resume.pdf')}
 						target='_blank'>
 						{' '}
 						Work Experience
