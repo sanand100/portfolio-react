@@ -12,6 +12,62 @@ function Projects(props) {
 				<Row>
 					<Col>
 						<Card className='card' border='light'>
+							<Card.Title className='card-title'>
+								{' '}
+								Ashary Akhuwat Foundation
+							</Card.Title>
+							<a
+								href='https://ashary-akhuwat-foundation.netlify.app/'
+								className='card-img'
+								target='_blank'>
+								<Card.Img
+									border='light'
+									id='aaf-img'
+									variant='top'
+									src={require('../assets/AAF.png')}
+									alt='App home page with blocks of text'
+								/>
+							</a>
+							<Card.Body>
+								<ul>
+									<li>
+										Developed a dynamic frontend using React.js to attract
+										donors and attendees for the organization’s charity art
+										event.
+									</li>
+									<li>
+										Using MongoDB, Express, Node, and React to design and build
+										an in-app charity art auction platform.
+									</li>
+								</ul>
+
+								<div className='tech-div'>
+									<p className='tech-used-header'>Technologies Used:</p>
+									<p>
+										React, JavaScript, Bootstrap, HTML, CSS, MongoDB, Mongoose,
+										Express, Node.js
+									</p>
+									<p>
+										<a
+											className='projects-a'
+											target='_blank'
+											href='https://github.com/orgs/Ashary-Akhuwat-Foundation/repositories'>
+											Code
+										</a>{' '}
+										|{' '}
+										<a
+											className='projects-a'
+											target='_blank'
+											href='https://ashary-akhuwat-foundation.netlify.app/'>
+											Website
+										</a>
+									</p>
+								</div>
+							</Card.Body>
+						</Card>
+					</Col>
+					<Col>
+						<Card className='card' border='light'>
 							<Card.Title className='card-title'> Moving Co.</Card.Title>
 							<a
 								href='https://movingco.netlify.app/'
@@ -28,9 +84,9 @@ function Projects(props) {
 							<Card.Body>
 								<ul>
 									<li>
-										Designed and built full software stack of a social media
-										application with a team of 3 SWEs. Users can read and post
-										tips and tricks about moving on the app’s blog.
+										Designed and built a full stack social media application
+										with a team of 3 SWEs. Users can read and post tips and
+										tricks about moving on the app’s blog.
 									</li>
 									<li>
 										Built full CRUD, REST API with JWT authentication using Java
